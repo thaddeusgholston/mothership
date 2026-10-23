@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+coverage/
+*.log
+
+# Rust and Tauri
+src-tauri/target/
+src-tauri/binaries/
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
